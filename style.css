@@ -330,7 +330,6 @@ section {
     padding: 30px 50px;
     border-radius: 4rem;
     box-shadow: 0 0 10px var(--primary-color);
-    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 .timeline-content:hover{
@@ -371,7 +370,6 @@ section {
     height: 300px;
     border-radius: 3rem;
     border: 5px solid transparent;
-    cursor: pointer;
     transition: 0.3s ease-in-out;
     overflow-y: auto;
 }
@@ -423,8 +421,9 @@ section {
     border-radius: 2rem;
     border: 3ps solid var(--primary-color);
     box-shadow: 0 0 25px var(--primary-color);
-    width: 176px;
-    height: 176px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
 }
 .wrapper {
     display: grid;
@@ -438,7 +437,6 @@ section {
     border-radius: 2rem;
     margin: 0 2rem;
     padding: 30px 60px;
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
